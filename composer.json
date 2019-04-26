@@ -1,0 +1,30 @@
+{
+    "name": "cubekode/faker-images",
+    "description": "Additional image providers for Faker",
+    "type": "library",
+    "license": "GPL3",
+    "authors": [
+        {
+            "name": "CubeKode Tecnologia",
+            "email": "contato@cubekode.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CubeKode\\Faker\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CubeKode\\Faker\\FakerImagesProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "fzaninotto/faker": "^1.8",
+        "guzzlehttp/guzzle": "^6.3",
+        "intervention/image": "^2.4"
+    }
+}
