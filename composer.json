@@ -2,7 +2,7 @@
     "name": "cubekode/faker-images",
     "description": "Additional image providers for Faker",
     "type": "library",
-    "license": "GPL",
+    "license": "GPL-3.0+",
     "authors": [
         {
             "name": "CubeKode Tecnologia",
